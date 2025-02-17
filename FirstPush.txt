@@ -1,2 +1,44 @@
-Hello Wolrd! 
-111
+﻿Hello Wolrd! 
+11123
+
+1️⃣ What is ASP.NET Core?
+ASP.NET Core is a modern, cross-platform, open-source framework for building web applications, APIs, and services. It is the evolution of ASP.NET, redesigned to be faster, more lightweight, and modular.
+
+2️⃣ Key Features of ASP.NET Core
+✅ Cross-Platform – Runs on Windows, macOS, and Linux
+✅ High Performance – Faster than ASP.NET Framework
+✅ Open-Source – Developed and maintained by Microsoft & the community
+✅ Modular & Lightweight – Uses NuGet packages instead of a bulky framework
+✅ Built-in Dependency Injection – Helps manage dependencies efficiently
+✅ Supports Multiple Hosting Models – Self-hosted (Kestrel) or IIS
+
+3️⃣ ASP.NET Core vs ASP.NET Framework
+Feature	ASP.NET Core	ASP.NET Framework
+Platform	Cross-Platform (Windows, macOS, Linux)	Windows Only
+Performance	Faster & More Optimized	Slower due to older architecture
+Hosting	Kestrel, IIS, Docker, Cloud	IIS Only
+Modularity	Uses small NuGet packages	Monolithic
+Open Source	Yes ✅	No ❌
+4️⃣ What Can You Build with ASP.NET Core?
+💡 Web APIs – For mobile apps, frontend apps, and microservices
+💡 Web Applications – MVC-based or Razor Pages apps
+💡 Real-Time Apps – Using SignalR (e.g., chat apps)
+💡 Microservices – Small, independent services
+💡 Serverless Functions – Deployed on Azure Functions
+
+5️⃣ How ASP.NET Core Web API Works (Simple Overview)
+When a client (e.g., a web browser or mobile app) sends a request to an ASP.NET Core Web API, it follows this process:
+
+1️⃣ Request Received → Sent to the API Endpoint (Controller)
+2️⃣ Processing → Executes business logic (e.g., fetching data from a database)
+3️⃣ Response Sent → Returns data as JSON (default format)
+
+📝 Example: Simple API Response When you visit https://yourapi.com/products, the API returns:
+
+json
+Copy
+Edit
+[
+  { "id": 1, "name": "Laptop", "price": 1200 },
+  { "id": 2, "name": "Smartphone", "price": 800 }
+]
